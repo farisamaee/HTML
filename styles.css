@@ -1,0 +1,28 @@
+body 
+{
+    background-color: yellow;
+}
+
+h1 
+{
+    color: black;
+    font-family: verdana;
+    font-size: 150%;
+
+}
+
+h2
+{
+   color: red;	
+   font-family: verdana;
+   font-size: 130%;
+
+}
+
+p 
+{
+    color: black;
+    font-family: verdana;
+    font-size: 100%;
+
+}
