@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">    
+</head>    
+
+<title>Computer Science Quiz</title>
+    //make a new title 
+    
+<body>
+
+<style>
+    <link rel="stylesheet" type="text/css" href="mystyle_thompsonFarisa.css">
+</style>
+    
+<h1>Computer Science Game!</h1>
+<h2>Are you a computer science genius? Play this game to find out!</h2>
+<h3>Question 1</h3>
+	
+	<p>Which unit(s) are used when describing the amount of storage?</p>
+</body> //Finish this, check it over
+<script>
+i = 4 
+function main()
+{  
+else if (i==4)
+  { 
+	document.view.qnum.value=i;  
+	document.view.question.value ="
+I wanna be ________, I wanna be your father a) your mother \n b) your sister \n c) your mister \n d) your lady
+";
+	// above code puts the question in the textarea, note the use of \n for "new line"
+	correct="a"  // assigns the correct answer
+	ans=prompt(i+'.) I wanna be ________, I wanna be your father a) your mother b) your sister c) your mister d) your lady')  // gives user a chance to answer
+  }// end of question 4
+	document.view.go.focus();  // puts the focus on the "Next Question >" button so the enter key will activate it
+	if (correct==ans)
+  {  // compares the real answer to the users answer
+		document.view.question.value =" You are right!"  // puts comment in textarea
+  }
+else
+  {
+		document.view.question.value =" You are wrong"  // puts comment in textarea
+  }
+	i++; // keeps track of number of questions asked
+} //end of main function
+</script>
+</head>
+<body LINK="F7DD5E" VLINK="F7DD5E" ALINK="F7DD5E" onLoad="main()">
+<FORM name="view">  
+	Question: &nbsp;<input type="text" name="qnum" size="2">&nbsp;&nbsp;<input type="button" name="go" value="Next Question >" onClick=main()>
+	<br><br>
+	<TEXTAREA COLS=36 ROWS=9 name="question" wrap=virtual"></TEXTAREA> 
+</FORM>     
+    
+</html>
