@@ -21,17 +21,17 @@
 	<p>Which unit(s) are used when describing the amount of storage?</p>
 </body> //Finish this, check it over
 <script>
-i = 1 
+i = 2 
 function main()
 {  
-else if (i==1)
+else if (i==2)
   { 
 	document.view.qnum.value=i;  
 	document.view.question.value ="Hit me, baby, ___________ \n a) one more time.\n b) again and again\n c) baby baby.\n d) times one more.";
 	// above code puts the question in the textarea, note the use of \n for "new line"
 	correct="b"  // assigns the correct answer
-	ans=prompt(i+'.) I see trees of green, __________ \na) clouds of white \n b) red roses too \n c) roses of red too \n d) flowers of blue')  // gives user a chance to answer
-  }// end of question 1
+	ans=prompt(i+'.) Hit me, baby, ___________ a) one more time. b) again and again. c) baby baby. d) times one more.')  // gives user a chance to answer
+  }// end of question 2
 	document.view.go.focus();  // puts the focus on the "Next Question >" button so the enter key will activate it
 	if (correct==ans)
   {  // compares the real answer to the users answer
