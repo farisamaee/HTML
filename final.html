@@ -6,18 +6,27 @@
 </head>
 <body id="bodyy">
 
-<audio controls>
-  <source src="horse.ogg" type="audio/ogg">
-</audio>    
-  https://www.youtube.com/watch?v=3GwjfUFyY6M   
+
+
+
 <button onclick="myFunction()">Try it</button>    
     
 <h1>Congratulations you completed the quiz!</h1>
 
 <script>
- if (score < 80%) {
+var mySound;
+
+function startGame() 
+{
+    mySound = new sound("bounce.mp3");
+}
+    
+if (score < 80%) 
+{
     greeting = "Try this game https://farisamaee.github.io/HTML/Musicq1_thompsonFarisa";
-} else {
+} 
+else 
+{
     greeting = "Try again https://farisamaee.github.io/HTML/q1_thompsonFarisa";
 }   
 </script>    
