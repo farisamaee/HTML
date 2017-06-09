@@ -3,6 +3,13 @@ body
     background-color: #00CDE1;
 }
 
+final
+{
+    background-color: url("https://dynamicfireworks.co.uk/wp-content/uploads/2013/12/dynamic-fireworks-earlybird-background-e1470063570344.jpg")
+    font-family: syncopate;
+    font-size: 200%;
+}
+
 h1 
 {
     color: black;
