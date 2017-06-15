@@ -58,12 +58,66 @@ body
     background -image:https://mdn.mozillademos.org/files/9461/css-declaration-small.png;
 }
 
-final
+#final
 {
     background-color: url("https://dynamicfireworks.co.uk/wp-content/uploads/2013/12/dynamic-fireworks-earlybird-background-e1470063570344.jpg")
     font-family: syncopate;
     font-size: 200%;
 }
+
+#music1
+{
+    background-image: https://image.freepik.com/free-vector/circle-made-of-music-instruments_23-2147509304.jpg
+}
+
+#music2
+{
+    background-image: http://p8cdn4static.sharpschool.com/UserFiles/Servers/Server_608213/Image/Music%20Images/music%20banner.jpg
+}
+
+#music3
+{
+    background-image: http://dreamatico.com/data_images/music/music-7.jpg
+}
+
+#music4
+{
+    background-image: http://static.wixstatic.com/media/0da1bc_315c4d8a87f946c08469204406f79b21~mv2.jpg
+}
+
+#music5
+{
+    background-image: http://cdn.playbuzz.com/cdn/37c6903f-acab-4401-807f-d39d1e143cf4/3089ee30-887f-4a7d-9422-e30b2d7ace87.jpg
+}
+
+#music6
+{
+    background-image: https://www.solent.ac.uk/courses/undergraduate/digital-music-top-up-ba/years/2016/assets/digital-music-1-Cropped-1920x830.jpg
+}
+#music7
+{
+    background-image:
+}
+
+#music8
+{
+    background-image:
+}
+
+#music9
+{
+    background-image:
+}
+
+#music10
+{
+    background-image:
+}
+
+#music11
+{
+    background-image:
+}/
 
 h1 
 {
