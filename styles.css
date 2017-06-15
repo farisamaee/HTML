@@ -3,6 +3,61 @@ body
     background-color: #00CDE1;
 }
 
+#body1
+{
+    background-image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY8nMMYt9XyCXiNz1hMeMtykhwTKlwRMop5w5ozDKBrqwp22rq;
+}
+
+#body2
+{
+    background-image: <img src="http://study.com/cimages/multimages/16/computer_motherboard_600.jpg" alt="Image result for motherboard"/> ;
+}
+
+#body3
+{
+    background-image: https://www.webafrica.co.za/blog/wp-content/uploads/2015/10/ip-address.jpg;
+}
+
+#body4
+{
+    background-image: http://dn128h0qfjlc0.cloudfront.net/wp-content/uploads/2014/04/28130456/atelier-cloud-computing.jpg;
+}
+
+#body5
+{
+    background-image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-HTML5_logo_and_wordmark.svg.png;
+}
+
+#body6
+{
+    background-image: https://blog.nus.edu.sg/3217w3/files/2017/03/html-on-sheet-2gsqh5s.jpg;
+}
+
+#body7
+{
+    background-image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDw9UyfZmI1M5VxxqIJcbvRaxdTMibM0XK0bKX7jMEZZ_qzxFl;
+}
+
+#body8
+{
+    background-image: https://cdn-images-1.medium.com/max/800/1*ot7tWiPCYC01pV0kGmK3qQ.png;
+}
+
+#body9
+{
+    background-image: http://opensourceforu.com/wp-content/uploads/2016/10/JavaScript.jpg;
+}
+
+#body10
+{
+    background-image: https://content.linkedin.com/content/dam/me/learning/blog/2016/september/CSS.jpg;
+}
+
+#body11
+{
+    background -image:https://mdn.mozillademos.org/files/9461/css-declaration-small.png;
+}
+
 final
 {
     background-color: url("https://dynamicfireworks.co.uk/wp-content/uploads/2013/12/dynamic-fireworks-earlybird-background-e1470063570344.jpg")
@@ -15,11 +70,10 @@ h1
     color: black;
     font-family: verdana;
     font-size: 150%;
-
 }
 
 #bodyy {
-    background-image: http://cohort21.com/blukyng/files/2015/11/balloon.png (balloons.gif);
+    background-image: http://cohort21.com/blukyng/files/2015/11/balloon.png;
 }
 
 h2
@@ -27,6 +81,7 @@ h2
    color: red;	
    font-family: verdana;
    font-size: 130%;
+   background-color: white;
 
 }
 
@@ -35,12 +90,14 @@ p
     color: black;
     font-family: verdana;
     font-size: 100%;
+    backfround-color: white;
 
 }
 
 a
 {
     font-family:impact;
-    color: white;
+    color: #0000FF;
     font-size: 70%;
+    background-color: white;
 }
